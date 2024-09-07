@@ -42,21 +42,21 @@ Open your browser and navigate to http://localhost:3000. The application will au
 
 Here is a basic overview of the project structure:
 
-beglarianfabrics/
-├── public/                  # Static files
-├── src/                     # Main source code
-│   ├── assets/              # Images, icons, etc.
-│   ├── components/          # Reusable React components
-│   ├── constants/           # Constant values used across the app
-│   ├── hooks/               # Custom hooks
-│   ├── pages/               # Next.js pages
-│   ├── store/               # Zustand store configuration
-│   ├── styles/              # Global styles and CSS modules
-│   ├── types/               # TypeScript types
-│   └── __tests__/           # Unit tests
-├── .eslintrc.js             # ESLint configuration
-├── tsconfig.json            # TypeScript configuration
-└── package.json             # NPM scripts and dependencies
+Here is a basic overview of the project structure:
+
+public/: Static files
+src/: Main source code
+  assets/: Images, icons, etc.
+  components/: Reusable React components
+  constants/: Constant values used across the app
+  hooks/: Custom hooks
+  pages/: Next.js pages
+  store/: Zustand store configuration
+  styles/: Global styles and CSS modules
+  types/: TypeScript types
+.eslintrc.js: ESLint configuration
+tsconfig.json: TypeScript configuration
+
 
 ### Technologies Used
 
