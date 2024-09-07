@@ -44,6 +44,7 @@ Here is a basic overview of the project structure:
 
 Here is a basic overview of the project structure:
 
+```jsx
 public/: Static files
 src/: Main source code
   assets/: Images, icons, etc.
@@ -56,6 +57,7 @@ src/: Main source code
   types/: TypeScript types
 .eslintrc.js: ESLint configuration
 tsconfig.json: TypeScript configuration
+```
 
 
 ### Technologies Used
