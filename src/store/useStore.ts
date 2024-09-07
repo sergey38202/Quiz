@@ -1,7 +1,7 @@
 import { 
   fetchQuestions, 
   setPassedCount, 
-  toggleQuestion
+  toggleQuestion,
 } from '@/store/actions/questions';
 import { IStoreState } from '@/store/types';
 import { create } from 'zustand';
