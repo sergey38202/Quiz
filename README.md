@@ -66,3 +66,15 @@ beglarianfabrics/
 - Zustand: A small, fast, and scalable state management solution.
 - ESLint: To maintain code quality.
 - Prettier: For consistent code formatting.
+
+### Contributing
+
+Contributions are welcome! If you'd like to contribute, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (git checkout -b feature-name).
+3. Make your changes.
+4. Commit your changes (git commit -m 'Add some feature').
+5. Push to the branch (git push origin feature-name).
+6. Open a Pull Request.
+
