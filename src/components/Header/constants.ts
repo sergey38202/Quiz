@@ -1,0 +1,1 @@
+export const SCORE: number = 13;

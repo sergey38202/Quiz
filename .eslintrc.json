@@ -1,3 +1,63 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"]
+  "extends": [
+    "next/core-web-vitals",
+    "next/typescript",
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:jsx-a11y/recommended"
+  ],
+  "plugins": ["@typescript-eslint", "react", "react-hooks", "jsx-a11y"],
+  "rules": {
+    "no-console": "warn", 
+    "no-debugger": "warn", 
+
+    "curly": ["error", "all"], 
+    "eqeqeq": ["error", "always", {"null": "ignore"}], 
+    "no-alert": "warn", 
+    "no-else-return": ["error", { "allowElseIf": false }], 
+    "no-empty-function": "error", 
+    "no-multi-spaces": "error", 
+    "no-unused-vars": "warn", 
+    "no-useless-return": "error", 
+
+    "semi": ["error", "always"], 
+    "quotes": ["error", "single", { "avoidEscape": true }], 
+    "indent": ["error", 2, { "SwitchCase": 1 }], 
+    "linebreak-style": ["error", "unix"], 
+    "object-curly-spacing": ["error", "always"], 
+    "array-bracket-spacing": ["error", "never"], 
+    "arrow-spacing": ["error", { "before": true, "after": true }], 
+    "comma-dangle": ["error", "always-multiline"], 
+
+    "@typescript-eslint/no-unused-vars": "warn", 
+    "@typescript-eslint/no-explicit-any": "warn", 
+    "@typescript-eslint/explicit-module-boundary-types": "off", 
+    "@typescript-eslint/no-empty-function": "error", 
+    "@typescript-eslint/no-inferrable-types": "off", 
+    "@typescript-eslint/ban-ts-comment": "off",
+
+    "react/jsx-uses-react": "off", 
+    "react/react-in-jsx-scope": "off", 
+    "react/jsx-no-target-blank": "error", 
+    "react/jsx-boolean-value": ["error", "always"], 
+    "react/self-closing-comp": "error", 
+    "react/jsx-curly-spacing": ["error", { "when": "never", "children": true }], 
+
+    "react-hooks/rules-of-hooks": "error", 
+    "react-hooks/exhaustive-deps": "warn", 
+
+    "jsx-a11y/alt-text": "error", 
+    "jsx-a11y/anchor-is-valid": "warn", 
+    "jsx-a11y/no-static-element-interactions": "off",
+    "jsx-a11y/no-noninteractive-tabindex": "off",
+    "jsx-a11y/click-events-have-key-events": "off", 
+    "jsx-a11y/no-noninteractive-element-interactions": "warn"
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
 }

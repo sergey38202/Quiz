@@ -1,0 +1,106 @@
+.card {
+    width: 100%;
+    margin-bottom: var(--spacing-small);
+    padding: var(--spacing-large);
+    border-radius: 20px;
+    border: 1px solid var(--color-off-white);
+    background: var(--color-white);
+}
+
+.card__learningBlock {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: var(--spacing-medium);
+}
+
+.card__learningBlock-info {
+    display: flex;
+    align-items: center;
+    column-gap: var(--spacing-medium);
+}
+
+.card__learningBlock-info--icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 58px;
+    height: 58px;
+    padding: 13px;
+    border-radius: 50%;
+    background: var(--color-soft-peach);
+}
+
+.card__learningBlock-info--text {
+    display: flex;
+    flex-direction: column;
+}
+
+.card__learningBlock-info--text-title {
+    font-weight: 600;
+    font-size: var(--text-size-xl);
+    line-height: 26px;
+}
+
+.card__learningBlock-info--text-subTitle {
+    font-weight: 400;
+    font-size: var(--text-size-small);
+    line-height: 20px;
+}
+
+.card__resultBlock-title--wrapper {
+    margin-bottom: var(--spacing-small);
+}
+
+.card__resultBlock-title {
+    font-weight: 400;
+    font-size: var(--text-size-small);
+    line-height: 20px;
+}
+
+.card__resultBlock-success--lines {
+    display: flex;
+    align-items: center;
+    column-gap: var(--spacing-xsmall);
+}
+
+.card__resultBlock-success--line {
+    width: 100%;
+    max-width: 37px;
+    height: 6px;
+    border-radius: 5px;
+    background: #edf6ee;
+}
+
+.card__resultBlock-success--line-filled {
+    background: var(--color-green);
+}
+
+.learning__questions-item {
+    cursor: pointer;
+}
+
+.learning__questions-item-success-logo-show {
+    display: block;
+}
+
+.learning__questions-item-success-logo {
+    display: none;
+}
+
+.learning__questions-item.active .learning__questions-item-success-logo {
+    display: block;
+}
+
+.card__resultBlock-success--line {
+    width: 100%;
+    max-width: 37px;
+    height: 6px;
+    border-radius: 5px;
+    background: #edf6ee;
+}
+
+.card__resultBlock-success--line-filled {
+    background: var(--color-green);
+}

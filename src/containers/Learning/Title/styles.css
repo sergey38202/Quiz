@@ -1,0 +1,15 @@
+.learning__title {
+    width: 100%;
+    max-width: 109px;
+    margin: 0 auto 26px;
+    padding-bottom: 14px;
+    border-bottom: 2px solid var(--color-coral);
+}
+
+.learning__title-text {
+    text-align: center;
+    font-weight: 500;
+    font-size: var(--text-size-small);
+    line-height: 20px;
+    color: var(--color-coral);
+}

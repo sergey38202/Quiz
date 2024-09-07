@@ -1,0 +1,51 @@
+:root {
+    /* Colors */
+    --color-light-gray: #f9f9f9;
+    --color-dark-gray: #2C2D2E;
+    --color-medium-gray: #87898F;
+    --color-soft-peach: #FFE3DD;
+    --color-green: #52A754;
+    --color-emerald-green: #52A754;
+    --color-white: #FFFFFF;
+    --color-off-white: #F3F3F3;
+    --color-black-opaque: #000000DE;
+    --color-light-pink: #FFE9EC;
+    --color-pastel-purple: #F0EAF8;
+    --color-lavender-purple: #BB9DE0;
+    --color-coral: #FF7355;
+    --color-light-coral: #FFE3DD;
+
+    /* Spaces */
+    --spacing-xsmall: 4px;
+    --spacing-small: 8px;
+    --spacing-medium: 16px;
+    --spacing-large: 24px;
+
+    /* Text Sizes */
+    --text-size-large: 18px;
+    --text-size-xl: 20px;
+    --text-size-small: 14px;
+    --text-size-medium: 16px;
+
+    /* Responsive Breakpoints */
+    --breakpoint-xs: 360px;  /* Extra small devices (portrait phones) */
+    --breakpoint-sm: 768px;  /* Small devices (landscape phones, portrait tablets) */
+    --breakpoint-md: 992px;  /* Medium devices (landscape tablets, small desktops) */
+    --breakpoint-lg: 1200px; /* Large devices (desktops) */
+    --breakpoint-xl: 1600px; /* Extra large devices (large desktops) */
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    background: var(--color-light-gray);
+}
+
+a {
+    text-decoration: none;
+}

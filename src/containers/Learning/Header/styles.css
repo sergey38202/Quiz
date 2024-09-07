@@ -1,0 +1,14 @@
+.learning__header {
+    display: flex;
+    align-items: center;
+    column-gap: var(--spacing-medium);
+    margin-bottom: 29px;
+    padding: 21px 0;
+}
+
+.learning__header-title {
+    font-weight: 500;
+    font-size: var(--text-size-large);
+    line-height: 26px;
+    color: var(--color-dark-gray);
+}

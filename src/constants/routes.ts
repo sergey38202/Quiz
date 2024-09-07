@@ -1,0 +1,16 @@
+export const ROUTES = {
+  home: '/',
+  plan: '/plan',
+  leaderboard: '/leaderboard',
+  dvsaExam: '/exam',
+  expressMode: '/express-mode',
+  hazard: '/hazard',
+  road: '/road',
+  multiplayer: '/multiplayer',
+  mistakes: '/mistakes',
+  statistics: '/statistics',
+  highwayCode: '/highway-code',
+  favorites: '/favorites',
+  profile: '/profile',
+  learning: '/learning',
+} as const;
